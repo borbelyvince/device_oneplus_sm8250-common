@@ -6,7 +6,7 @@ ro.config.vc_call_vol_steps=30
 ro.vendor.audio.sdk.fluencetype=fluence
 
 # Camera
-vendor.camera.aux.packagelist=com.android.camera,org.codeaurora.snapcam
+# vendor.camera.aux.packagelist=com.android.camera,org.codeaurora.snapcam
 
 # Display
 persist.sys.sf.color_mode=0
