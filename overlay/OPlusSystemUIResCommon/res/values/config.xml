@@ -14,4 +14,7 @@
      
      <!-- Preferred max refresh rate at AOD & Ambient Display, if supported by the display. -->
      <integer name="config_aodMaxRefreshRate">60</integer>
+     
+    <!-- Height of the faceunlock image view -->
+    <dimen name="keyguard_face_unlock_margin_bottom">0dp</dimen>
 </resources>
