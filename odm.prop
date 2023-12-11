@@ -11,7 +11,3 @@ ro.vendor.audio.sdk.fluencetype=fluence
 # Display
 persist.sys.sf.color_mode=0
 vendor.display.enable_async_powermode=1
-
-# Graphics
-debug.sf.high_fps_early_gl_phase_offset_ns=-2000000
-debug.sf.high_fps_late_sf_phase_offset_ns=-2000000
