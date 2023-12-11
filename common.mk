@@ -74,6 +74,10 @@ PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.device_id_attestation.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.device_id_attestation.xml
 
+# Display
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.sf.force_hwc_brightness=1
+
 # Doze
 PRODUCT_PACKAGES += \
     ParanoidDoze
