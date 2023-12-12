@@ -119,6 +119,7 @@ PRODUCT_PACKAGES += \
     init.oplus.rc \
     init.oplus.sh \
     init.target.rc \
+    init.oplus.touch.rc \
     ueventd.oplus.rc
 
 # Keymaster
