@@ -21,7 +21,7 @@ on property:debug.touch_polling_mode=1
 
 # Toggle glove mode.
 on property:persist.vendor.touch_polling_mode=0 && property:sys.boot_completed=1
-    write /proc/touchpanel/game_switch_enable "0, smooth_level:0, sensitive_level:0, high_frame_support:1, high_frame_value:0"
+    write /proc/touchpanel/game_switch_enable "0"
 
 on property:persist.vendor.touch_polling_mode=1 && property:sys.boot_completed=1
-    write /proc/touchpanel/game_switch_enable "1, smooth_level:0, sensitive_level:0, high_frame_support:1, high_frame_value:0"
+    write /proc/touchpanel/game_switch_enable "1"
