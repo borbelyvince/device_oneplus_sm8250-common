@@ -10,7 +10,7 @@ persist.bluetooth.bqr.min_interval_ms=60000
 ro.charger.enable_suspend=1
 
 # Display
-# ro.sf.use_latest_hwc_vsync_period=0
+ro.sf.use_latest_hwc_vsync_period=0
 debug.sf.disable_client_composition_cache=1
 debug.sf.hw=0
 sys.hwc.gpu_perf_mode=0
