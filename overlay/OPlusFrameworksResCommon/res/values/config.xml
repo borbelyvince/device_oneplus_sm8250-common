@@ -82,6 +82,11 @@
          Should be set to dt2w max time / 2 when needed -->
     <integer name="config_singleTapDelay">500</integer>
 
+    <!-- The maximum range of gamma adjustment possible using the screen
+    <bool name="config_enableBurnInProtection">true</bool>
+         auto-brightness adjustment setting. -->
+    <fraction name="config_autoBrightnessAdjustmentMaxGamma">150%</fraction>
+
     <!-- True if the device supports Sustained Performance Mode-->
     <bool name="config_sustainedPerformanceModeSupported">true</bool>
 
