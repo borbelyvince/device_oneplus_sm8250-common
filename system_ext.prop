@@ -28,6 +28,11 @@ debug.sf.hw=0
 sys.hwc.gpu_perf_mode=0
 debug.composition.type=mdp
 persist.sys.composition.type=mdp
+debug.mdpcomp.logs=0
+debug.sf.predict_hwc_composition_strategy=1
+debug.performance.tuning=1
+vendor.display.perf_hint_window=50
+vendor.gralloc.enable_fb_ubwc=1
 
 # GPS
 persist.backup.ntpServer=0.pool.ntp.org
