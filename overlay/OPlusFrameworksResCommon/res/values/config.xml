@@ -82,6 +82,14 @@
          Should be set to dt2w max time / 2 when needed -->
     <integer name="config_singleTapDelay">500</integer>
 
+    <!-- Build properties from a GMS certified device against current platform SPL level -->
+    <string-array name="config_certifiedBuildProperties" translatable="false">
+    <item>DEVICE:griffin</item>
+    <item>PRODUCT:griffin_retcn</item>
+    <item>MODEL:XT1650-05</item>
+    <item>FINGERPRINT:motorola/griffin_retcn/griffin:6.0.1/MCC24.246-37/42:user/release-keys</item>
+    </string-array>
+
     <!-- The maximum range of gamma adjustment possible using the screen
     <bool name="config_enableBurnInProtection">true</bool>
          auto-brightness adjustment setting. -->
