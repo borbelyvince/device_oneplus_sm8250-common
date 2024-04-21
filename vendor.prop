@@ -72,6 +72,10 @@ vendor.opengles.version=196610
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 
+# HWUI
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=20
+
 # Incremental FS
 ro.incremental.enable=yes
 
