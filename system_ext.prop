@@ -1,5 +1,17 @@
 # Audio
 persist.vendor.audio_hal.dsp_bit_width_enforce_mode=24
+audio.safemedia.bypass=true
+vendor.audio.usb.perio=2500
+audio.adm.buffering.ms=2
+vendor.audio.adm.buffering.ms=2
+audio_hal.period_multiplier=1
+vendor.audio_hal.period_multiplier=1
+persist.bluetooth.sbc_hd_higher_bitrate=1
+af.resampler.quality=7
+ro.audio.resampler.psd.enable_at_samplerate=44100
+ro.audio.resampler.psd.stopband=179
+ro.audio.resampler.psd.halflength=408
+ro.audio.resampler.psd.tbwcheat=99
 
 # Bluetooth
 persist.bluetooth.bqr.choppy_threshold=9,6
