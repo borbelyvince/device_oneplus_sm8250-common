@@ -18,6 +18,10 @@ persist.bluetooth.bqr.choppy_threshold=9,6
 persist.bluetooth.bqr.event_mask=0x8000000E
 persist.bluetooth.bqr.min_interval_ms=60000
 
+# Camera
+# vendor.camera.aux.packagelist=com.android.camera,org.codeaurora.snapcam
+vendor.debug.camera.maxNonHfrFps=60
+
 # Charging
 ro.charger.enable_suspend=1
 
