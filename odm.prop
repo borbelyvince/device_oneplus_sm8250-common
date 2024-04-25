@@ -12,4 +12,3 @@ vendor.debug.camera.maxNonHfrFps=60
 # Display
 persist.sys.sf.color_mode=0
 vendor.display.enable_async_powermode=1
-default vendor.display.use_smooth_motion=1
