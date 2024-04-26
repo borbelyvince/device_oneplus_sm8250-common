@@ -19,7 +19,9 @@ persist.bluetooth.bqr.event_mask=0x8000000E
 persist.bluetooth.bqr.min_interval_ms=60000
 
 # Camera
-vendor.camera.aux.packagelist=com.android.camera,org.codeaurora.snapcam,ru.andr7e.deviceinfohw,net.sourceforge.opencamera
+vendor.camera.aux.packagelist=com.camera2.test,org.codeaurora.snapcam,ru.andr7e.deviceinfohw,net.sourceforge.opencamera
+vendor.camera.aux.packagelist2=com.android.camera,com.google.android.GoogleCameraEngR18F1,lv.mcprotector.mcpro24fps
+persist.vendor.camera.privapp.list=com.google.android.GoogleCameraEngR18F1,lv.mcprotector.mcpro24fps,com.camera2.test
 vendor.debug.camera.maxNonHfrFps=60
 persist.camera.max.previewfps=60
 persist.vendor.camera.max.previewfps=60
