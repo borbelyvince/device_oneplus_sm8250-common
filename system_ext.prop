@@ -21,6 +21,8 @@ persist.bluetooth.bqr.min_interval_ms=60000
 # Camera
 vendor.camera.aux.packagelist=com.android.camera,org.codeaurora.snapcam,ru.andr7e.deviceinfohw,net.sourceforge.opencamera
 vendor.debug.camera.maxNonHfrFps=60
+persist.camera.max.previewfps=60
+persist.vendor.camera.max.previewfps=60
 
 # Charging
 ro.charger.enable_suspend=1
