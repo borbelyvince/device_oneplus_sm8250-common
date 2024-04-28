@@ -35,10 +35,6 @@ vendor.display.smomo_camera_support=1
 vendor.display.smomo_game_support=0
 vendor.display.use_layer_ext=1
 ro.vendor.display.dither=true
-vendor.display.disable_rotator_downscale=1
-vendor.display.disable_scaler=1
-sdm.debug.disable_inline_rotator=1
-sdm.debug.disable_inline_rotator_secure=1
 
 # DPM
 persist.vendor.dpmhalservice.enable=1
