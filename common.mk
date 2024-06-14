@@ -120,6 +120,7 @@ PRODUCT_PACKAGES += \
     init.oplus.hw.rc.recovery \
     init.oplus.rc \
     init.oplus.sh \
+    init.oplus.usb.rc \
     init.target.rc \
     init.oplus.touch.rc \
     ueventd.oplus.rc
@@ -147,6 +148,7 @@ PRODUCT_PACKAGES += \
     OPlusFrameworksResCommon \
     OPlusSettingsResCommon \
     OPlusSystemUIResCommon \
+    OnePlus9DeviceAsWebcam \
     WifiResTarget \
     WifiResTargetMainline
 

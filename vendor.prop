@@ -120,3 +120,6 @@ persist.vendor.sensors.sync_request=true
 
 # Zygote
 zygote.critical_window.minute=10
+
+# USB
+ro.usb.uvc.enabled=true
