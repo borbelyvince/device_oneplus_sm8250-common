@@ -25,7 +25,6 @@ ro.soc.model=SM8250
 ro.crypto.volume.filenames_mode=aes-256-cts
 
 # Display
-vendor.display.disable_hw_recovery_dump=1
 vendor.display.disable_system_load_check=1
 vendor.display.enable_camera_smooth=1
 vendor.display.not_switch_qhd_120hz=1
