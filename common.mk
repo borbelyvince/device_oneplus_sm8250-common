@@ -78,6 +78,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.sf.force_hwc_brightness=1
 
+TARGET_USE_AIDL_QTI_MEMTRACK := true
+
 # Doze
 PRODUCT_PACKAGES += \
     ParanoidDoze
