@@ -34,6 +34,7 @@ vendor.display.smomo_camera_support=1
 vendor.display.smomo_game_support=0
 vendor.display.use_layer_ext=1
 ro.vendor.display.dither=true
+vendor.display.enable_perf_hint_large_comp_cycle=0
 
 # DPM
 persist.vendor.dpmhalservice.enable=1
@@ -66,7 +67,6 @@ ro.surface_flinger.wcg_composition_dataspace=143261696
 ro.surface_flinger.game_default_frame_rate_override=120
 ro.surface_flinger.use_context_priority=1
 ro.surface_flinger.running_without_sync_framework=false
-ro.surface_flinger.enable_layer_caching=1
 ro.surface_flinger.enable_frame_rate_override=1
 ro.surface_flinger.clear_slots_with_set_layer_buffer=1
 debug.sf.latch_unsignaled=1
@@ -118,3 +118,6 @@ persist.vendor.sensors.sync_request=true
 
 # Zygote
 zygote.critical_window.minute=10
+
+# USB
+ro.usb.uvc.enabled=true

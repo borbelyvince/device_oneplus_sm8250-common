@@ -78,6 +78,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.sf.force_hwc_brightness=1
 
+TARGET_USE_AIDL_QTI_MEMTRACK := true
+
 # Doze
 PRODUCT_PACKAGES += \
     ParanoidDoze
@@ -118,6 +120,7 @@ PRODUCT_PACKAGES += \
     init.oplus.hw.rc.recovery \
     init.oplus.rc \
     init.oplus.sh \
+    init.oplus.usb.rc \
     init.target.rc \
     init.oplus.touch.rc \
     ueventd.oplus.rc
@@ -145,11 +148,20 @@ PRODUCT_PACKAGES += \
     OPlusFrameworksResCommon \
     OPlusSettingsResCommon \
     OPlusSystemUIResCommon \
+    OnePlus9DeviceAsWebcam \
     WifiResTarget \
     WifiResTargetMainline
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
+# Perf
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/perf/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json
+
+# Performance
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml
 
 # Power
 PRODUCT_PACKAGES += \
